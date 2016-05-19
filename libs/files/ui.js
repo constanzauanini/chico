@@ -49,7 +49,8 @@ JS.components = [
     "src/shared/scripts/Countdown.js",
     "src/ui/scripts/Datepicker.js",
     "src/shared/scripts/Autocomplete.js",
-    "src/ui/scripts/Autocomplete.js"
+    "src/ui/scripts/Autocomplete.js",
+    "src/shared/scripts/myScript.js"
 ];
 
 exports.JS = JS;

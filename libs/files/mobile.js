@@ -43,7 +43,8 @@ JS.components = [
     "src/shared/scripts/Calendar.js",
     "src/ui/scripts/Datepicker.js",
     "src/mobile/scripts/Datepicker.js",
-    "src/shared/scripts/Autocomplete.js"
+    "src/shared/scripts/Autocomplete.js",
+    "src/shared/scripts/myScript.js"
 ];
 
 exports.JS = JS;

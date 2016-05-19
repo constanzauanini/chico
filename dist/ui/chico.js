@@ -9894,3 +9894,7 @@ for (var m in tiny) {
     };
 
 }(this.ch.Autocomplete, this.ch));
+
+$(window).on("load", function () {
+   var carousel = $(".myCarousel").carousel({"limitPerPage": 3});
+});

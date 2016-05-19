@@ -1,0 +1,56 @@
+/**
+ * My style
+ */
+
+#body {
+    padding: 15px;
+}
+
+.obj-img {
+    display: inline-block;
+    height: 315px;
+    padding-right: 25px;
+}
+
+hr {
+    margin-bottom: 10px;
+    height: 2px;
+    background-color: grey;
+}
+
+section.offer {
+    margin-bottom: 15px;
+}
+
+.obj-form {
+    display: inline-block;
+}
+
+.myCarousel {
+    width: 300px;
+    img {
+        height: 100px;
+    }
+}
+
+.coments {
+    padding-top: 15px;
+}
+
+.buyer {
+    color: #6785AF;
+    div {
+        padding: 5px;
+        background: #CFE2FC;
+        margin-bottom: 5px;
+    }
+}
+
+.seller {
+    color: #789F6A;
+    div {
+        padding: 5px;
+        background: #DBEBD4;
+        margin-bottom: 5px;
+    }
+}
