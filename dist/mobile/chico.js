@@ -8258,6 +8258,7 @@
 
 }(this, this.ch));
 
-$(window).on("load", function () {
-   var carousel = $(".myCarousel").carousel({"limitPerPage": 3});
-});
+
+   window.onload = function () {
+   	var carousel = new ch.Carousel(document.querySelector(".myCarousel"),{});
+   };

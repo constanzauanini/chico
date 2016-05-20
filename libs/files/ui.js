@@ -4,6 +4,7 @@ var JS = {};
  * JS: Core
  */
 JS.core = [
+    'node_modules/tiny.js/dist/tiny.js',
     "src/shared/scripts/core.js",
     "src/shared/scripts/events.js",
     "src/ui/scripts/events.js",

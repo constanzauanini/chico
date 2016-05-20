@@ -3096,20 +3096,20 @@ hr {
   background-color: grey;
 }
 
+.myCarousel {
+  width: 400px;
+}
+
+.myCarousel img {
+  width: 100px;
+}
+
 section.offer {
   margin-bottom: 15px;
 }
 
 .obj-form {
   display: inline-block;
-}
-
-.myCarousel {
-  width: 200px;
-}
-
-.myCarousel img {
-  height: 100px;
 }
 
 .coments {
