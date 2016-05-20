@@ -3110,6 +3110,7 @@ section.offer {
 
 .obj-form {
   display: inline-block;
+  vertical-align: top;
 }
 
 .coments {
