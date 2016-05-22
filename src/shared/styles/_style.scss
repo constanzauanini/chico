@@ -19,7 +19,7 @@ hr {
 }
 
 .myCarousel {
-    width: 400px;
+max-width: 400px;
     img {
         width: 100px;
     }
@@ -56,3 +56,15 @@ section.offer {
         margin-bottom: 5px;
     }
 }
+
+
+@media only screen and (max-device-width: 480px) {
+    .obj-img {
+        width: 100%;
+        height: auto;
+    }
+    .myCarousel {
+    max-width: 300px;
+    }
+}
+

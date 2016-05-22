@@ -3097,7 +3097,7 @@ hr {
 }
 
 .myCarousel {
-  width: 400px;
+  max-width: 400px;
 }
 
 .myCarousel img {
@@ -3135,6 +3135,16 @@ section.offer {
   padding: 5px;
   background: #DBEBD4;
   margin-bottom: 5px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .obj-img {
+    width: 100%;
+    height: auto;
+  }
+  .myCarousel {
+    max-width: 300px;
+  }
 }
 
 /**

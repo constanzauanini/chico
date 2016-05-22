@@ -10,6 +10,7 @@ var postcss = require('gulp-postcss');
 var postcssOpacity = require('postcss-opacity');
 var postcssFilterGradient = require('postcss-filter-gradient');
 var autoprefixer = require('autoprefixer');
+var htmlmin = require('gulp-htmlmin');
 
 // UI JavaScript
 var uiJS = require('./libs/files/ui').JS;
@@ -51,6 +52,15 @@ gulp.task('sass', [
     'sass:ui',
     'sass:mobile'
 ]);
+
+// Minify HTML
+gulp.task('htmlMinify', function() {
+  return gulp.src('index.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe($.rename('index.min.html'))
+    .pipe(gulp.dest('./'))
+});
+
 
 gulp.task('sass:ui', function () {
     return gulp.src('src/ui/styles/ui-theme.scss')
@@ -236,6 +246,7 @@ gulp.task('lint', function () {
 gulp.task('build', function (done) {
     runSequence([
         'copy',
+        'htmlMinify',
         'sass',
         'concatJS'
     ], done);
