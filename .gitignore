@@ -8,5 +8,4 @@ thumb.db
 node_modules
 npm-debug.log
 temp
-dist
 doc
