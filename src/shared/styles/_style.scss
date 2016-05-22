@@ -58,13 +58,13 @@ section.offer {
 }
 
 
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
     .obj-img {
         width: 100%;
         height: auto;
     }
     .myCarousel {
-    max-width: 300px;
+        max-width: 300px;
     }
 }
 
